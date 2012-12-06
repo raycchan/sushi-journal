@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D106B8216104C1200155834 /* SushiEditDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D106B8016104C1200155834 /* SushiEditDetailsViewController.m */; };
+		4D106B8316104C1200155834 /* SushiEditDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D106B8116104C1200155834 /* SushiEditDetailsViewController.xib */; };
+		4D3BC19B160B0277008CDF82 /* sushihome.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC19A160B0277008CDF82 /* sushihome.png */; };
+		4D3BC1A3160B0DC6008CDF82 /* D_Aji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC19E160B0DC6008CDF82 /* D_Aji.jpg */; };
+		4D3BC1A4160B0DC6008CDF82 /* D_Akagai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC19F160B0DC6008CDF82 /* D_Akagai.jpg */; };
+		4D3BC1A5160B0DC6008CDF82 /* D_Akami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC1A0160B0DC6008CDF82 /* D_Akami.jpg */; };
+		4D3BC1A6160B0DC6008CDF82 /* D_Anago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC1A1160B0DC6008CDF82 /* D_Anago.jpg */; };
+		4D3BC1A7160B0DC6008CDF82 /* D_Buri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC1A2160B0DC6008CDF82 /* D_Buri.jpg */; };
+		4D3BC1AA160B1324008CDF82 /* SushiStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC1A9160B1324008CDF82 /* SushiStore.m */; };
+		4D5EC67F160B1D11002B644B /* SushiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EC67E160B1D11002B644B /* SushiItem.m */; };
+		4D5EC689160B2786002B644B /* D_Chu-toro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC684160B2786002B644B /* D_Chu-toro.jpg */; };
+		4D5EC68A160B2786002B644B /* D_Ebi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC685160B2786002B644B /* D_Ebi.jpg */; };
+		4D5EC68B160B2786002B644B /* D_Hamaguri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC686160B2786002B644B /* D_Hamaguri.jpg */; };
+		4D5EC68C160B2786002B644B /* D_Hirame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC687160B2786002B644B /* D_Hirame.jpg */; };
+		4D5EC68D160B2786002B644B /* D_Ikura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC688160B2786002B644B /* D_Ikura.jpg */; };
+		4D5EC698160B2B34002B644B /* D_Karei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC68E160B2B33002B644B /* D_Karei.jpg */; };
+		4D5EC699160B2B34002B644B /* D_Katsuo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC68F160B2B33002B644B /* D_Katsuo.jpg */; };
+		4D5EC69A160B2B34002B644B /* D_Kobashira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC690160B2B33002B644B /* D_Kobashira.jpg */; };
+		4D5EC69B160B2B34002B644B /* D_Mushi-awabi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC691160B2B33002B644B /* D_Mushi-awabi.jpg */; };
+		4D5EC69C160B2B34002B644B /* D_Saba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC692160B2B33002B644B /* D_Saba.jpg */; };
+		4D5EC69D160B2B34002B644B /* D_Sayori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC693160B2B33002B644B /* D_Sayori.jpg */; };
+		4D5EC69E160B2B34002B644B /* D_Sumi-ika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC694160B2B33002B644B /* D_Sumi-ika.jpg */; };
+		4D5EC69F160B2B34002B644B /* D_Uni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC695160B2B33002B644B /* D_Uni.jpg */; };
+		4D5EC6A0160B2B34002B644B /* D_Kohada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC696160B2B34002B644B /* D_Kohada.jpg */; };
+		4D5EC6A1160B2B34002B644B /* D_Oo-toro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EC697160B2B34002B644B /* D_Oo-toro.jpg */; };
+		4D74D8A3160AC2500015059B /* SushiTableItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D74D8A1160AC2500015059B /* SushiTableItemCell.m */; };
+		4D74D8A4160AC2500015059B /* SushiTableItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74D8A2160AC2500015059B /* SushiTableItemCell.xib */; };
+		4D757B64161BDBB6001673A7 /* D_Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D757B63161BDBB6001673A7 /* D_Default.jpg */; };
+		4D7686FA161B2CE10023430E /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7686F9161B2CE10023430E /* normal.png */; };
+		4D7686FC161B2CE60023430E /* retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7686FB161B2CE60023430E /* retina.png */; };
+		4D7686FE161B2D050023430E /* D_Default-Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D7686FD161B2D050023430E /* D_Default-Large.jpg */; };
+		4D76CB351612F8B9003C6900 /* SushiCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76CB341612F8B9003C6900 /* SushiCollection.m */; };
+		4D76FF6116144CE1006EBB6B /* SushiImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76FF6016144CE1006EBB6B /* SushiImageStore.m */; };
+		4D79250816197E82009CBE73 /* D_Abalone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79250716197E82009CBE73 /* D_Abalone.jpg */; };
+		4D79250B16197EE9009CBE73 /* D_Ika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79250A16197EE9009CBE73 /* D_Ika.jpg */; };
+		4D79250D16197F46009CBE73 /* D_Iwashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79250C16197F46009CBE73 /* D_Iwashi.jpg */; };
+		4D79250F16198073009CBE73 /* D_Kampyomaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79250E16198073009CBE73 /* D_Kampyomaki.jpg */; };
+		4D79251316198132009CBE73 /* D_Kani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79251216198132009CBE73 /* D_Kani.jpg */; };
+		4D7925191619823E009CBE73 /* D_Tai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D7925181619823E009CBE73 /* D_Tai.jpg */; };
+		4D79251B161983FF009CBE73 /* D_Kinmedai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79251A161983FF009CBE73 /* D_Kinmedai.jpg */; };
+		4D79251D161985B1009CBE73 /* D_Tekkamaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79251C161985B1009CBE73 /* D_Tekkamaki.jpg */; };
+		4D79251F1619866C009CBE73 /* D_Amaebi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79251E1619866C009CBE73 /* D_Amaebi.jpg */; };
+		4D79252116198719009CBE73 /* D_Shako.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79252016198719009CBE73 /* D_Shako.jpg */; };
+		4D792523161987A9009CBE73 /* D_Octopus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D792522161987A9009CBE73 /* D_Octopus.jpg */; };
+		4D79252716198A21009CBE73 /* D_Hamachi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79252616198A21009CBE73 /* D_Hamachi.jpg */; };
+		4D79252D16198CCC009CBE73 /* D_Sake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79252C16198CCC009CBE73 /* D_Sake.jpg */; };
+		4D79252F16198DCC009CBE73 /* D_Komochikonbu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79252E16198DCC009CBE73 /* D_Komochikonbu.jpg */; };
+		4D79253316198EDD009CBE73 /* D_Kappamaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79253216198EDD009CBE73 /* D_Kappamaki.jpg */; };
+		4D79253516198F43009CBE73 /* D_Tamago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79253416198F43009CBE73 /* D_Tamago.jpg */; };
+		4D79253716198F55009CBE73 /* D_Kanpachi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79253616198F55009CBE73 /* D_Kanpachi.jpg */; };
+		4D79253916198F69009CBE73 /* D_Hotate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79253816198F69009CBE73 /* D_Hotate.jpg */; };
+		4D79253B16198F7C009CBE73 /* D_Unagi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79253A16198F7C009CBE73 /* D_Unagi.jpg */; };
+		4D79253D16199CF8009CBE73 /* D_Sanma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79253C16199CF8009CBE73 /* D_Sanma.jpg */; };
+		4D79253F16199DE4009CBE73 /* D_Isaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79253E16199DE4009CBE73 /* D_Isaki.jpg */; };
+		4D79254116199F2C009CBE73 /* D_Engawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D79254016199F2C009CBE73 /* D_Engawa.jpg */; };
+		4D79E0FA16157A16001F5206 /* GalleryItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79E0F916157A16001F5206 /* GalleryItemCell.m */; };
+		4D79E0FC16157A23001F5206 /* GalleryItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D79E0FB16157A23001F5206 /* GalleryItemCell.xib */; };
+		4D79E0FF16157AC2001F5206 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79E0FE16157AC1001F5206 /* GalleryViewController.m */; };
+		4D856CD915FF270F00624D33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D856CD815FF270F00624D33 /* UIKit.framework */; };
+		4D856CDB15FF270F00624D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D856CDA15FF270F00624D33 /* Foundation.framework */; };
+		4D856CDD15FF271000624D33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D856CDC15FF270F00624D33 /* CoreGraphics.framework */; };
+		4D856CE315FF271000624D33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D856CE115FF271000624D33 /* InfoPlist.strings */; };
+		4D856CE515FF271000624D33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D856CE415FF271000624D33 /* main.m */; };
+		4D856CE915FF271000624D33 /* SushiJournalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D856CE815FF271000624D33 /* SushiJournalAppDelegate.m */; };
+		4D856CF515FF289B00624D33 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D856CF415FF289B00624D33 /* HomeViewController.m */; };
+		4D856CF815FF28F800624D33 /* SushiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D856CF715FF28F800624D33 /* SushiTableViewController.m */; };
+		4D856CFA15FF291F00624D33 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D856CF915FF291F00624D33 /* HomeView.xib */; };
+		4D978D111612E684005FE539 /* SushiCollectionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D978D101612E684005FE539 /* SushiCollectionItemCell.m */; };
+		4DC7ADFB161ADA3800959925 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC7ADFA161ADA3800959925 /* background.png */; };
+		4DC7ADFD161ADD7800959925 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC7ADFC161ADD7800959925 /* QuartzCore.framework */; };
+		4DC7AE01161AEA8900959925 /* mysushijournal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC7AE00161AEA8900959925 /* mysushijournal.png */; };
+		4DEBD02C1624A172002A6591 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBD02B1624A172002A6591 /* Default-568h@2x.png */; };
+		4DF8827516141EC400268D2E /* SushiCollectionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF8827416141EC400268D2E /* SushiCollectionItemCell.xib */; };
+		4DF882791614236800268D2E /* CollectionEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF882771614236800268D2E /* CollectionEditViewController.m */; };
+		4DF8827A1614236800268D2E /* CollectionEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF882781614236800268D2E /* CollectionEditViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D106B7F16104C1200155834 /* SushiEditDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiEditDetailsViewController.h; sourceTree = "<group>"; };
+		4D106B8016104C1200155834 /* SushiEditDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiEditDetailsViewController.m; sourceTree = "<group>"; };
+		4D106B8116104C1200155834 /* SushiEditDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SushiEditDetailsViewController.xib; sourceTree = "<group>"; };
+		4D3BC19A160B0277008CDF82 /* sushihome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushihome.png; sourceTree = "<group>"; };
+		4D3BC19E160B0DC6008CDF82 /* D_Aji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Aji.jpg; sourceTree = "<group>"; };
+		4D3BC19F160B0DC6008CDF82 /* D_Akagai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Akagai.jpg; sourceTree = "<group>"; };
+		4D3BC1A0160B0DC6008CDF82 /* D_Akami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Akami.jpg; sourceTree = "<group>"; };
+		4D3BC1A1160B0DC6008CDF82 /* D_Anago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Anago.jpg; sourceTree = "<group>"; };
+		4D3BC1A2160B0DC6008CDF82 /* D_Buri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Buri.jpg; sourceTree = "<group>"; };
+		4D3BC1A8160B1324008CDF82 /* SushiStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiStore.h; sourceTree = "<group>"; };
+		4D3BC1A9160B1324008CDF82 /* SushiStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiStore.m; sourceTree = "<group>"; };
+		4D5EC67D160B1D11002B644B /* SushiItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiItem.h; sourceTree = "<group>"; };
+		4D5EC67E160B1D11002B644B /* SushiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiItem.m; sourceTree = "<group>"; };
+		4D5EC684160B2786002B644B /* D_Chu-toro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "D_Chu-toro.jpg"; sourceTree = "<group>"; };
+		4D5EC685160B2786002B644B /* D_Ebi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Ebi.jpg; sourceTree = "<group>"; };
+		4D5EC686160B2786002B644B /* D_Hamaguri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Hamaguri.jpg; sourceTree = "<group>"; };
+		4D5EC687160B2786002B644B /* D_Hirame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Hirame.jpg; sourceTree = "<group>"; };
+		4D5EC688160B2786002B644B /* D_Ikura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Ikura.jpg; sourceTree = "<group>"; };
+		4D5EC68E160B2B33002B644B /* D_Karei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Karei.jpg; sourceTree = "<group>"; };
+		4D5EC68F160B2B33002B644B /* D_Katsuo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Katsuo.jpg; sourceTree = "<group>"; };
+		4D5EC690160B2B33002B644B /* D_Kobashira.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Kobashira.jpg; sourceTree = "<group>"; };
+		4D5EC691160B2B33002B644B /* D_Mushi-awabi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "D_Mushi-awabi.jpg"; sourceTree = "<group>"; };
+		4D5EC692160B2B33002B644B /* D_Saba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Saba.jpg; sourceTree = "<group>"; };
+		4D5EC693160B2B33002B644B /* D_Sayori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Sayori.jpg; sourceTree = "<group>"; };
+		4D5EC694160B2B33002B644B /* D_Sumi-ika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "D_Sumi-ika.jpg"; sourceTree = "<group>"; };
+		4D5EC695160B2B33002B644B /* D_Uni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Uni.jpg; sourceTree = "<group>"; };
+		4D5EC696160B2B34002B644B /* D_Kohada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Kohada.jpg; sourceTree = "<group>"; };
+		4D5EC697160B2B34002B644B /* D_Oo-toro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "D_Oo-toro.jpg"; sourceTree = "<group>"; };
+		4D74D8A0160AC2500015059B /* SushiTableItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiTableItemCell.h; sourceTree = "<group>"; };
+		4D74D8A1160AC2500015059B /* SushiTableItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiTableItemCell.m; sourceTree = "<group>"; };
+		4D74D8A2160AC2500015059B /* SushiTableItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SushiTableItemCell.xib; sourceTree = "<group>"; };
+		4D757B63161BDBB6001673A7 /* D_Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Default.jpg; sourceTree = "<group>"; };
+		4D7686F9161B2CE10023430E /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal.png; path = ../normal.png; sourceTree = "<group>"; };
+		4D7686FB161B2CE60023430E /* retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retina.png; path = ../retina.png; sourceTree = "<group>"; };
+		4D7686FD161B2D050023430E /* D_Default-Large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "D_Default-Large.jpg"; sourceTree = "<group>"; };
+		4D76CB331612F8B9003C6900 /* SushiCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiCollection.h; sourceTree = "<group>"; };
+		4D76CB341612F8B9003C6900 /* SushiCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiCollection.m; sourceTree = "<group>"; };
+		4D76FF5F16144CE1006EBB6B /* SushiImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiImageStore.h; sourceTree = "<group>"; };
+		4D76FF6016144CE1006EBB6B /* SushiImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiImageStore.m; sourceTree = "<group>"; };
+		4D79250716197E82009CBE73 /* D_Abalone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Abalone.jpg; sourceTree = "<group>"; };
+		4D79250A16197EE9009CBE73 /* D_Ika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Ika.jpg; sourceTree = "<group>"; };
+		4D79250C16197F46009CBE73 /* D_Iwashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Iwashi.jpg; sourceTree = "<group>"; };
+		4D79250E16198073009CBE73 /* D_Kampyomaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Kampyomaki.jpg; sourceTree = "<group>"; };
+		4D79251216198132009CBE73 /* D_Kani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Kani.jpg; sourceTree = "<group>"; };
+		4D7925181619823E009CBE73 /* D_Tai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Tai.jpg; sourceTree = "<group>"; };
+		4D79251A161983FF009CBE73 /* D_Kinmedai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Kinmedai.jpg; sourceTree = "<group>"; };
+		4D79251C161985B1009CBE73 /* D_Tekkamaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Tekkamaki.jpg; sourceTree = "<group>"; };
+		4D79251E1619866C009CBE73 /* D_Amaebi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Amaebi.jpg; sourceTree = "<group>"; };
+		4D79252016198719009CBE73 /* D_Shako.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Shako.jpg; sourceTree = "<group>"; };
+		4D792522161987A9009CBE73 /* D_Octopus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Octopus.jpg; sourceTree = "<group>"; };
+		4D79252616198A21009CBE73 /* D_Hamachi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Hamachi.jpg; sourceTree = "<group>"; };
+		4D79252C16198CCC009CBE73 /* D_Sake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Sake.jpg; sourceTree = "<group>"; };
+		4D79252E16198DCC009CBE73 /* D_Komochikonbu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Komochikonbu.jpg; sourceTree = "<group>"; };
+		4D79253216198EDD009CBE73 /* D_Kappamaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Kappamaki.jpg; sourceTree = "<group>"; };
+		4D79253416198F43009CBE73 /* D_Tamago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Tamago.jpg; sourceTree = "<group>"; };
+		4D79253616198F55009CBE73 /* D_Kanpachi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Kanpachi.jpg; sourceTree = "<group>"; };
+		4D79253816198F69009CBE73 /* D_Hotate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Hotate.jpg; sourceTree = "<group>"; };
+		4D79253A16198F7C009CBE73 /* D_Unagi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Unagi.jpg; sourceTree = "<group>"; };
+		4D79253C16199CF8009CBE73 /* D_Sanma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Sanma.jpg; sourceTree = "<group>"; };
+		4D79253E16199DE4009CBE73 /* D_Isaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Isaki.jpg; sourceTree = "<group>"; };
+		4D79254016199F2C009CBE73 /* D_Engawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D_Engawa.jpg; sourceTree = "<group>"; };
+		4D79E0F816157A16001F5206 /* GalleryItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryItemCell.h; sourceTree = "<group>"; };
+		4D79E0F916157A16001F5206 /* GalleryItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryItemCell.m; sourceTree = "<group>"; };
+		4D79E0FB16157A23001F5206 /* GalleryItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryItemCell.xib; sourceTree = "<group>"; };
+		4D79E0FD16157AC1001F5206 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		4D79E0FE16157AC1001F5206 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		4D856CD415FF270F00624D33 /* SushiJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D856CD815FF270F00624D33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D856CDA15FF270F00624D33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D856CDC15FF270F00624D33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D856CE015FF271000624D33 /* SushiJournal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SushiJournal-Info.plist"; sourceTree = "<group>"; };
+		4D856CE215FF271000624D33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D856CE415FF271000624D33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D856CE615FF271000624D33 /* SushiJournal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SushiJournal-Prefix.pch"; sourceTree = "<group>"; };
+		4D856CE715FF271000624D33 /* SushiJournalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SushiJournalAppDelegate.h; sourceTree = "<group>"; };
+		4D856CE815FF271000624D33 /* SushiJournalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SushiJournalAppDelegate.m; sourceTree = "<group>"; };
+		4D856CF315FF289B00624D33 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4D856CF415FF289B00624D33 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4D856CF615FF28F800624D33 /* SushiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiTableViewController.h; sourceTree = "<group>"; };
+		4D856CF715FF28F800624D33 /* SushiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiTableViewController.m; sourceTree = "<group>"; };
+		4D856CF915FF291F00624D33 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		4D978D0F1612E684005FE539 /* SushiCollectionItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiCollectionItemCell.h; sourceTree = "<group>"; };
+		4D978D101612E684005FE539 /* SushiCollectionItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiCollectionItemCell.m; sourceTree = "<group>"; };
+		4DC7ADFA161ADA3800959925 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4DC7ADFC161ADD7800959925 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4DC7AE00161AEA8900959925 /* mysushijournal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mysushijournal.png; sourceTree = "<group>"; };
+		4DEBD02B1624A172002A6591 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4DF8827416141EC400268D2E /* SushiCollectionItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SushiCollectionItemCell.xib; sourceTree = "<group>"; };
+		4DF882761614236800268D2E /* CollectionEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionEditViewController.h; sourceTree = "<group>"; };
+		4DF882771614236800268D2E /* CollectionEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionEditViewController.m; sourceTree = "<group>"; };
+		4DF882781614236800268D2E /* CollectionEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionEditViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D856CD115FF270F00624D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC7ADFD161ADD7800959925 /* QuartzCore.framework in Frameworks */,
+				4D856CD915FF270F00624D33 /* UIKit.framework in Frameworks */,
+				4D856CDB15FF270F00624D33 /* Foundation.framework in Frameworks */,
+				4D856CDD15FF271000624D33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3BC1AB160B1341008CDF82 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				4D3BC1A8160B1324008CDF82 /* SushiStore.h */,
+				4D3BC1A9160B1324008CDF82 /* SushiStore.m */,
+				4D5EC67D160B1D11002B644B /* SushiItem.h */,
+				4D5EC67E160B1D11002B644B /* SushiItem.m */,
+				4D76CB331612F8B9003C6900 /* SushiCollection.h */,
+				4D76CB341612F8B9003C6900 /* SushiCollection.m */,
+				4D76FF5F16144CE1006EBB6B /* SushiImageStore.h */,
+				4D76FF6016144CE1006EBB6B /* SushiImageStore.m */,
+				4D3BC1AC160B134F008CDF82 /* Default Images */,
+			);
+			name = Dictionary;
+			sourceTree = "<group>";
+		};
+		4D3BC1AC160B134F008CDF82 /* Default Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D79254016199F2C009CBE73 /* D_Engawa.jpg */,
+				4D757B63161BDBB6001673A7 /* D_Default.jpg */,
+				4D79253E16199DE4009CBE73 /* D_Isaki.jpg */,
+				4D79253C16199CF8009CBE73 /* D_Sanma.jpg */,
+				4D79253A16198F7C009CBE73 /* D_Unagi.jpg */,
+				4D79253816198F69009CBE73 /* D_Hotate.jpg */,
+				4D79253416198F43009CBE73 /* D_Tamago.jpg */,
+				4D79253216198EDD009CBE73 /* D_Kappamaki.jpg */,
+				4D79253616198F55009CBE73 /* D_Kanpachi.jpg */,
+				4D79252E16198DCC009CBE73 /* D_Komochikonbu.jpg */,
+				4D79252C16198CCC009CBE73 /* D_Sake.jpg */,
+				4D79252616198A21009CBE73 /* D_Hamachi.jpg */,
+				4D792522161987A9009CBE73 /* D_Octopus.jpg */,
+				4D79252016198719009CBE73 /* D_Shako.jpg */,
+				4D79251E1619866C009CBE73 /* D_Amaebi.jpg */,
+				4D79251C161985B1009CBE73 /* D_Tekkamaki.jpg */,
+				4D79251A161983FF009CBE73 /* D_Kinmedai.jpg */,
+				4D7925181619823E009CBE73 /* D_Tai.jpg */,
+				4D79251216198132009CBE73 /* D_Kani.jpg */,
+				4D79250E16198073009CBE73 /* D_Kampyomaki.jpg */,
+				4D79250C16197F46009CBE73 /* D_Iwashi.jpg */,
+				4D79250A16197EE9009CBE73 /* D_Ika.jpg */,
+				4D79250716197E82009CBE73 /* D_Abalone.jpg */,
+				4D3BC19E160B0DC6008CDF82 /* D_Aji.jpg */,
+				4D3BC19F160B0DC6008CDF82 /* D_Akagai.jpg */,
+				4D3BC1A0160B0DC6008CDF82 /* D_Akami.jpg */,
+				4D3BC1A1160B0DC6008CDF82 /* D_Anago.jpg */,
+				4D3BC1A2160B0DC6008CDF82 /* D_Buri.jpg */,
+				4D5EC684160B2786002B644B /* D_Chu-toro.jpg */,
+				4D5EC685160B2786002B644B /* D_Ebi.jpg */,
+				4D5EC686160B2786002B644B /* D_Hamaguri.jpg */,
+				4D5EC687160B2786002B644B /* D_Hirame.jpg */,
+				4D5EC688160B2786002B644B /* D_Ikura.jpg */,
+				4D5EC68E160B2B33002B644B /* D_Karei.jpg */,
+				4D5EC68F160B2B33002B644B /* D_Katsuo.jpg */,
+				4D5EC690160B2B33002B644B /* D_Kobashira.jpg */,
+				4D5EC696160B2B34002B644B /* D_Kohada.jpg */,
+				4D5EC691160B2B33002B644B /* D_Mushi-awabi.jpg */,
+				4D5EC697160B2B34002B644B /* D_Oo-toro.jpg */,
+				4D5EC692160B2B33002B644B /* D_Saba.jpg */,
+				4D5EC693160B2B33002B644B /* D_Sayori.jpg */,
+				4D5EC694160B2B33002B644B /* D_Sumi-ika.jpg */,
+				4D5EC695160B2B33002B644B /* D_Uni.jpg */,
+			);
+			name = "Default Images";
+			sourceTree = "<group>";
+		};
+		4D76FFEF1612E11D004FA54C /* Edit Details */ = {
+			isa = PBXGroup;
+			children = (
+				4D106B7F16104C1200155834 /* SushiEditDetailsViewController.h */,
+				4D106B8016104C1200155834 /* SushiEditDetailsViewController.m */,
+				4D106B8116104C1200155834 /* SushiEditDetailsViewController.xib */,
+				4D978D0F1612E684005FE539 /* SushiCollectionItemCell.h */,
+				4D978D101612E684005FE539 /* SushiCollectionItemCell.m */,
+				4DF8827416141EC400268D2E /* SushiCollectionItemCell.xib */,
+				4DF882761614236800268D2E /* CollectionEditViewController.h */,
+				4DF882771614236800268D2E /* CollectionEditViewController.m */,
+				4DF882781614236800268D2E /* CollectionEditViewController.xib */,
+			);
+			name = "Edit Details";
+			sourceTree = "<group>";
+		};
+		4D79E0F6161579E2001F5206 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				4D79E0FD16157AC1001F5206 /* GalleryViewController.h */,
+				4D79E0FE16157AC1001F5206 /* GalleryViewController.m */,
+				4D79E0F816157A16001F5206 /* GalleryItemCell.h */,
+				4D79E0F916157A16001F5206 /* GalleryItemCell.m */,
+				4D79E0FB16157A23001F5206 /* GalleryItemCell.xib */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		4D856CC915FF270F00624D33 = {
+			isa = PBXGroup;
+			children = (
+				4DEBD02B1624A172002A6591 /* Default-568h@2x.png */,
+				4D856CDE15FF271000624D33 /* SushiJournal */,
+				4D856CD715FF270F00624D33 /* Frameworks */,
+				4D856CD515FF270F00624D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D856CD515FF270F00624D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D856CD415FF270F00624D33 /* SushiJournal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D856CD715FF270F00624D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC7ADFC161ADD7800959925 /* QuartzCore.framework */,
+				4D856CD815FF270F00624D33 /* UIKit.framework */,
+				4D856CDA15FF270F00624D33 /* Foundation.framework */,
+				4D856CDC15FF270F00624D33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D856CDE15FF271000624D33 /* SushiJournal */ = {
+			isa = PBXGroup;
+			children = (
+				4D856CE715FF271000624D33 /* SushiJournalAppDelegate.h */,
+				4D856CE815FF271000624D33 /* SushiJournalAppDelegate.m */,
+				4D856CF315FF289B00624D33 /* HomeViewController.h */,
+				4D856CF415FF289B00624D33 /* HomeViewController.m */,
+				4D856CF915FF291F00624D33 /* HomeView.xib */,
+				4D856CF615FF28F800624D33 /* SushiTableViewController.h */,
+				4D856CF715FF28F800624D33 /* SushiTableViewController.m */,
+				4D74D8A0160AC2500015059B /* SushiTableItemCell.h */,
+				4D74D8A1160AC2500015059B /* SushiTableItemCell.m */,
+				4D74D8A2160AC2500015059B /* SushiTableItemCell.xib */,
+				4D76FFEF1612E11D004FA54C /* Edit Details */,
+				4D79E0F6161579E2001F5206 /* Gallery */,
+				4D3BC1AB160B1341008CDF82 /* Dictionary */,
+				4D856CFD15FF2C7E00624D33 /* Images */,
+				4D856CDF15FF271000624D33 /* Supporting Files */,
+			);
+			path = SushiJournal;
+			sourceTree = "<group>";
+		};
+		4D856CDF15FF271000624D33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D856CE015FF271000624D33 /* SushiJournal-Info.plist */,
+				4D856CE115FF271000624D33 /* InfoPlist.strings */,
+				4D856CE415FF271000624D33 /* main.m */,
+				4D856CE615FF271000624D33 /* SushiJournal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D856CFD15FF2C7E00624D33 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4DC7AE00161AEA8900959925 /* mysushijournal.png */,
+				4D7686FD161B2D050023430E /* D_Default-Large.jpg */,
+				4D7686FB161B2CE60023430E /* retina.png */,
+				4D7686F9161B2CE10023430E /* normal.png */,
+				4DC7ADFA161ADA3800959925 /* background.png */,
+				4D3BC19A160B0277008CDF82 /* sushihome.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D856CD315FF270F00624D33 /* SushiJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D856CEC15FF271000624D33 /* Build configuration list for PBXNativeTarget "SushiJournal" */;
+			buildPhases = (
+				4D856CD015FF270F00624D33 /* Sources */,
+				4D856CD115FF270F00624D33 /* Frameworks */,
+				4D856CD215FF270F00624D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiJournal;
+			productName = SushiJournal;
+			productReference = 4D856CD415FF270F00624D33 /* SushiJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D856CCB15FF270F00624D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SushiJournal;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4D856CCE15FF270F00624D33 /* Build configuration list for PBXProject "SushiJournal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D856CC915FF270F00624D33;
+			productRefGroup = 4D856CD515FF270F00624D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D856CD315FF270F00624D33 /* SushiJournal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D856CD215FF270F00624D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D856CE315FF271000624D33 /* InfoPlist.strings in Resources */,
+				4D856CFA15FF291F00624D33 /* HomeView.xib in Resources */,
+				4D74D8A4160AC2500015059B /* SushiTableItemCell.xib in Resources */,
+				4D3BC19B160B0277008CDF82 /* sushihome.png in Resources */,
+				4D3BC1A3160B0DC6008CDF82 /* D_Aji.jpg in Resources */,
+				4D3BC1A4160B0DC6008CDF82 /* D_Akagai.jpg in Resources */,
+				4D3BC1A5160B0DC6008CDF82 /* D_Akami.jpg in Resources */,
+				4D3BC1A6160B0DC6008CDF82 /* D_Anago.jpg in Resources */,
+				4D3BC1A7160B0DC6008CDF82 /* D_Buri.jpg in Resources */,
+				4D5EC689160B2786002B644B /* D_Chu-toro.jpg in Resources */,
+				4D5EC68A160B2786002B644B /* D_Ebi.jpg in Resources */,
+				4D5EC68B160B2786002B644B /* D_Hamaguri.jpg in Resources */,
+				4D5EC68C160B2786002B644B /* D_Hirame.jpg in Resources */,
+				4D5EC68D160B2786002B644B /* D_Ikura.jpg in Resources */,
+				4D5EC698160B2B34002B644B /* D_Karei.jpg in Resources */,
+				4D5EC699160B2B34002B644B /* D_Katsuo.jpg in Resources */,
+				4D5EC69A160B2B34002B644B /* D_Kobashira.jpg in Resources */,
+				4D5EC69B160B2B34002B644B /* D_Mushi-awabi.jpg in Resources */,
+				4D5EC69C160B2B34002B644B /* D_Saba.jpg in Resources */,
+				4D5EC69D160B2B34002B644B /* D_Sayori.jpg in Resources */,
+				4D5EC69E160B2B34002B644B /* D_Sumi-ika.jpg in Resources */,
+				4D5EC69F160B2B34002B644B /* D_Uni.jpg in Resources */,
+				4D5EC6A0160B2B34002B644B /* D_Kohada.jpg in Resources */,
+				4D5EC6A1160B2B34002B644B /* D_Oo-toro.jpg in Resources */,
+				4D106B8316104C1200155834 /* SushiEditDetailsViewController.xib in Resources */,
+				4DF8827516141EC400268D2E /* SushiCollectionItemCell.xib in Resources */,
+				4DF8827A1614236800268D2E /* CollectionEditViewController.xib in Resources */,
+				4D79E0FC16157A23001F5206 /* GalleryItemCell.xib in Resources */,
+				4D79250816197E82009CBE73 /* D_Abalone.jpg in Resources */,
+				4D79250B16197EE9009CBE73 /* D_Ika.jpg in Resources */,
+				4D79250D16197F46009CBE73 /* D_Iwashi.jpg in Resources */,
+				4D79250F16198073009CBE73 /* D_Kampyomaki.jpg in Resources */,
+				4D79251316198132009CBE73 /* D_Kani.jpg in Resources */,
+				4D7925191619823E009CBE73 /* D_Tai.jpg in Resources */,
+				4D79251B161983FF009CBE73 /* D_Kinmedai.jpg in Resources */,
+				4D79251D161985B1009CBE73 /* D_Tekkamaki.jpg in Resources */,
+				4D79251F1619866C009CBE73 /* D_Amaebi.jpg in Resources */,
+				4D79252116198719009CBE73 /* D_Shako.jpg in Resources */,
+				4D792523161987A9009CBE73 /* D_Octopus.jpg in Resources */,
+				4D79252716198A21009CBE73 /* D_Hamachi.jpg in Resources */,
+				4D79252D16198CCC009CBE73 /* D_Sake.jpg in Resources */,
+				4D79252F16198DCC009CBE73 /* D_Komochikonbu.jpg in Resources */,
+				4D79253316198EDD009CBE73 /* D_Kappamaki.jpg in Resources */,
+				4D79253516198F43009CBE73 /* D_Tamago.jpg in Resources */,
+				4D79253716198F55009CBE73 /* D_Kanpachi.jpg in Resources */,
+				4D79253916198F69009CBE73 /* D_Hotate.jpg in Resources */,
+				4D79253B16198F7C009CBE73 /* D_Unagi.jpg in Resources */,
+				4D79253D16199CF8009CBE73 /* D_Sanma.jpg in Resources */,
+				4D79253F16199DE4009CBE73 /* D_Isaki.jpg in Resources */,
+				4D79254116199F2C009CBE73 /* D_Engawa.jpg in Resources */,
+				4DC7ADFB161ADA3800959925 /* background.png in Resources */,
+				4DC7AE01161AEA8900959925 /* mysushijournal.png in Resources */,
+				4D7686FA161B2CE10023430E /* normal.png in Resources */,
+				4D7686FC161B2CE60023430E /* retina.png in Resources */,
+				4D7686FE161B2D050023430E /* D_Default-Large.jpg in Resources */,
+				4D757B64161BDBB6001673A7 /* D_Default.jpg in Resources */,
+				4DEBD02C1624A172002A6591 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D856CD015FF270F00624D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D856CE515FF271000624D33 /* main.m in Sources */,
+				4D856CE915FF271000624D33 /* SushiJournalAppDelegate.m in Sources */,
+				4D856CF515FF289B00624D33 /* HomeViewController.m in Sources */,
+				4D856CF815FF28F800624D33 /* SushiTableViewController.m in Sources */,
+				4D74D8A3160AC2500015059B /* SushiTableItemCell.m in Sources */,
+				4D3BC1AA160B1324008CDF82 /* SushiStore.m in Sources */,
+				4D5EC67F160B1D11002B644B /* SushiItem.m in Sources */,
+				4D106B8216104C1200155834 /* SushiEditDetailsViewController.m in Sources */,
+				4D978D111612E684005FE539 /* SushiCollectionItemCell.m in Sources */,
+				4D76CB351612F8B9003C6900 /* SushiCollection.m in Sources */,
+				4DF882791614236800268D2E /* CollectionEditViewController.m in Sources */,
+				4D76FF6116144CE1006EBB6B /* SushiImageStore.m in Sources */,
+				4D79E0FA16157A16001F5206 /* GalleryItemCell.m in Sources */,
+				4D79E0FF16157AC2001F5206 /* GalleryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D856CE115FF271000624D33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D856CE215FF271000624D33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D856CEA15FF271000624D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D856CEB15FF271000624D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D856CED15FF271000624D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SushiJournal/SushiJournal-Prefix.pch";
+				INFOPLIST_FILE = "SushiJournal/SushiJournal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D856CEE15FF271000624D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SushiJournal/SushiJournal-Prefix.pch";
+				INFOPLIST_FILE = "SushiJournal/SushiJournal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D856CCE15FF270F00624D33 /* Build configuration list for PBXProject "SushiJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D856CEA15FF271000624D33 /* Debug */,
+				4D856CEB15FF271000624D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D856CEC15FF271000624D33 /* Build configuration list for PBXNativeTarget "SushiJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D856CED15FF271000624D33 /* Debug */,
+				4D856CEE15FF271000624D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D856CCB15FF270F00624D33 /* Project object */;
+}
